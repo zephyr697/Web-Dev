@@ -1,0 +1,16 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile":"node-sass sass/main.scss css/style.css",
+    "compile_watch:sass":"npm run sass:compile && npm run sass:compile -- -w",
+    "live-server":"live-server --browser=google-chrome"
+  },
+  "author": "Sachin Maurya",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
